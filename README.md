@@ -1,27 +1,31 @@
-# Task Manager App
+# My Task Manager
 
 ## Description
-This is a simple task manager built with Next.js and React.
-Users can add, delete, and manage tasks.
+This is a simple task manager web application built using Next.js and React. It allows users to add tasks, mark them as completed, delete tasks, filter tasks, and store them using localStorage.
 
 ## Features
-- Add tasks
-- Delete tasks
+- Add and delete tasks
 - Mark tasks as completed
-- Filter tasks (All, Active, Done)
-- Clear completed tasks
+- Filter tasks (All, Active, Completed)
+- Data persistence using localStorage
 
 ## Technologies Used
 - Next.js
 - React
+- JavaScript
 - Tailwind CSS
 
 ## How to Run
-1. Open the project in VS Code
-2. Run:
-   npm install
-   npm run dev
-3. Open http://localhost:3000
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open `http://localhost:3000`
+
+## What I Learned
+I learned how to build a React application using components, props, and state. I also learned how to manage data using localStorage and how to organize a project into multiple files.
 
 ## Author
 Alejandro Quevedo
+
+## What I Learned
+I learned how to build a React application using components, props, and state. I also learned how to manage data using localStorage and organize my code into multiple files.

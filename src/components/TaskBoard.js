@@ -15,8 +15,12 @@ import TaskStats from "./TaskStats";
 export default function TaskBoard() {
   const [tasks, setTasks] = useState(() => {
     if (typeof window === "undefined") return [];
-    const saved = localStorage.getItem("tasks");
-    return saved ? JSON.parse(saved) : [];
+   const saved = localStorage.getItem("tasks");
+try {
+  return saved ? JSON.parse(saved) : [];
+} catch {
+  return [];
+}
   });
 
   const [filter, setFilter] = useState("all");
