@@ -27,5 +27,3 @@ I learned how to build a React application using components, props, and state. I
 ## Author
 Alejandro Quevedo
 
-## What I Learned
-I learned how to build a React application using components, props, and state. I also learned how to manage data using localStorage and organize my code into multiple files.
